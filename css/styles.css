@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,700|Montserrat:500&display=swap');
+@import 'mobile.css';
+
+:root {}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cormorant Garamond';
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+header a {
+    font-size: 1.2em;
+    color: white;
+}
+
+nav {
+    background: linear-gradient(to right, white 25%, red 75%);
+}
+
+header nav {
+    border-bottom: 2px solid red;
+}
+
+header .nav-item:last-child {
+    padding-right: 5em;
+}
+
+header .nav-item {
+    font-family: 'Montserrat';
+    padding: 0.7em;
+}
+
+header .navbar-brand {
+    padding-left: 5rem;
+}
+
+header .nav-link:hover {
+    color: black;
+}
+
+header .mission-info {
+    margin-top: 5em;
+}
+
+header .row .col-md-5 {
+    padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-7 {
+    padding: 20vmin 1vmin;
+    padding-bottom: 5vmin;
+}
+
+header .row.col-md5 img {
+    width: 90%;
+}
+
+header .container .col-md-7 h5 {
+    font-family: 'Montserrat';
+    padding: 1vmin;
+    letter-spacing: 4px;
+}
+
+header .container .col-md-7 h1 {
+    font-family: 'Montserrat';
+    font-size: 8vmin;
+    font-weight: semi-bold;
+    padding: 0.1em 0em;
+}
+
+header .container .col-md-7 p {
+    padding: 1vmin 5vmin;
+    font-size: 1.2em;
+}
+
+header .container .col-md-7 button {
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+header .container .col-md-7 button:hover {
+    background-color: red;
+}
+
+/* section 1*/
+
+.section-1 {
+    padding: 20vmin 0;
+}
+
+.section-1 .row .col-md-6 .involved img {
+    opacity: 0.9;
+    width: 80%;
+    border-radius: 0.2em;
+    padding-bottom: 1em;
+}
+
+.section-1 .row .col-md-6:last-child {
+    position: relative;
+}
+
+.section-1 .row .col-md-6 .panel {
+    position: absolute;
+    font-size: larger;
+    top: 7vmin;
+    left: -18vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 13vmin 15vmin 20vmin 10vmin;
+    box-shadow: 5px 5px 10px lightgrey;
+}
+
+.section-1 .row .col-md-6 .panel h1,
+h5 {
+    font-family: 'Montserrat';
+}
+
+/*section 2*/
+
+.cover {
+    width: 100%;
+    height: 55vmin;
+    background: url('../img/cover-bg.jpg');
+    /*background-position: -25rem;*/
+    background-position-x: -15rem;
+    background-position-y: -15rem;
+    position: relative;
+}
+
+.cover .content {
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    padding-top: 19vmin;
+}
+
+.cover .content>h1 {
+    font-family: 'Montserrat';
+    font-size: 6vmin;
+    color: white;
+}
+
+.cover .content>p {
+    font-size: 3vmin;
+    color: whitesmoke;
+}
+
+.numbers .rect {
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 17rem;
+    height: 12rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: .5em;
+    box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.350);
+}
+
+.numbers {
+    margin-top: -15vmin;
+    padding-bottom: 5em;
+}
+
+.numbers .rect h1 {
+    font-family: 'Montserrat';
+    font-size: 5rem;
+}
+
+.numbers .rect p {
+    font-size: 1.3rem;
+}
+
+/*footer*/
+
+footer {
+    background: #333;
+    overflow-x: hidden;
+    padding: 14vmin 8vmin;
+}
+
+footer h1,
+h4 {
+    font-family: 'Montserrat';
+}
+
+footer p {
+    font-family: 'Cormorant Garamond';
+    font-size: 1.2em;
+}
+
+footer .fu-footer {
+    color: tomato;
+}
+
+footer input {
+    border: none !Important;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+footer input::placeholder {
+    color: white !Important;
+}
+
+footer .input-group .input-group-text {
+    background: tomato;
+    border: none;
+}
+
+footer .columns i {
+    color: tomato;
+    font-size: 1.7em;
+    padding: 0 0.5rem;
+}
