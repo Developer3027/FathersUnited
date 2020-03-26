@@ -1,5 +1,6 @@
 # FathersUnited
 Concept work for Fathers United non profit
+## Assist from Traversy Media MERN stack course on back end. Original course config re wrote to fit current needs.
 
 ## 3/4/20
 * Added the counter functionality to the numbers section.
@@ -39,5 +40,9 @@ Concept work for Fathers United non profit
     * description - what did you or are you learning
 },
 * working on post endpoints
+
+## 3/26/20
+* completed endpoints for makeing posts. User can create and delete posts. Like and unlike posts. Comment and delete comments.
+* ### review for update
 
 
