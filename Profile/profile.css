@@ -1,0 +1,55 @@
+@import '../css/styles.css';
+@import '../css/mobile.css';
+
+
+main .spacer {
+    height: 5.5em;
+}
+
+.spacer-small {
+    height: 2rem;
+    margin-bottom: 1rem;
+}
+
+main .main-content {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.user-info,
+.user-dash {
+    padding: .5rem;
+    margin: 0 .5rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+span {
+    font-weight: bold;
+}
+
+.card {
+    background-color: darksalmon;
+}
+
+.card-height {
+    height: 200px;
+    object-fit: cover;
+    object-position: 80% 80%;
+    position: relative;
+    border: 1px solid darkred;
+    border-radius: 3px 3px 0 0;
+
+}
+
+.avatar {
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+    width: 150px;
+    top: 5em;
+    left: 2em;
+}
+
+.sidebar {
+    border-left: 1px solid rgba(0, 0, 0, .2);
+}
