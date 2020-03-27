@@ -5,6 +5,8 @@ Concept work for Fathers United non profit. This site should have two sides. Pub
 ### 3/27/20
 reworked and tweeked features on the home page. Installed a more prominent header for the percentage section of the header. Wrote some more into for that section for clearer focus. Created the merch section, currently in html. I may change that section to react later. Not currently connected to any pay system. Ensured mobile compliance. Two screen sizes. max-width 450px and max-width 768px. Had issues with header and nav at 360 px range. Issue resolved.
 
+*verify mobile - LogIn and Register page created in html. HTML validation complete.
+
 ## Backend
 Using NodeJS, and express to start the backend. Using Mongoose for the database. Using heroku to deploy the backend. Currently using Zeit for the static site.
 

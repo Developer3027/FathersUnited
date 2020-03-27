@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap');
+@import '../css/styles.css';
+@import '../css/mobile.css';
+
+
+/* login section */
+.section-l-r {
+    margin-top: 10em;
+    margin-bottom: 5em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: .1% auto;
+}
+
+form {
+    padding: 1em;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin-left: .5em;
+}
+
+input {
+    margin: .5em;
+    padding: .3rem;
+    border: 1px solid rgba(0, 0, 0, .3);
+    border-radius: 3px;
+}
+
+button {
+    margin-left: .5em;
+}
+
+.form-wrapper form button:hover {
+    background-color: red;
+    border: 1px solid darkred;
+}
+
+.login {
+    width: 300px;
+}
+
+.register {
+    width: 300px;
+    ;
+}
+
+.center {
+    width: 2px;
+    background-color: rgba(0, 0, 0, .5);
+}
