@@ -1,3 +1,20 @@
+@media (max-width: 450px) {
+    nav {
+        background: red;
+    }
+
+    header .navbar-brand {
+        width: 75%;
+        padding: 0;
+        margin: 0;
+    }
+
+    header .navbar-brand img {
+        width: 95%;
+    }
+
+}
+
 @media only screen and (max-width: 768px) {
 
     nav .collapse .nav-item .nav-link {
