@@ -13,6 +13,25 @@
         width: 95%;
     }
 
+    .cover .content>h1 {
+        padding: 0;
+        margin: 0;
+    }
+
+    .cover .content>p {
+        padding: 0 !important;
+        height: 100%;
+        margin-bottom: 5em;
+    }
+
+    .numbers {
+        margin-top: 1px;
+    }
+
+    .numbers .rect {
+        width: 8rem;
+        height: 6rem;
+    }
 }
 
 /**/
