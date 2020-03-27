@@ -9,6 +9,8 @@ reworked and tweeked features on the home page. Installed a more prominent heade
 
 Mobile verified. Nav was re-arranged
 
+Have created template and error page. About and Get Involved created with error template.
+
 ## Backend
 Using NodeJS, and express to start the backend. Using Mongoose for the database. Using heroku to deploy the backend. Currently using Zeit for the static site.
 

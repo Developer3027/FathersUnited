@@ -1,0 +1,6 @@
+@import '../css/styles.css';
+@import '../css/mobile.css';
+
+.red {
+    color: red;
+}
