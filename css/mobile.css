@@ -1,7 +1,5 @@
 @media (max-width: 450px) {
-    nav {
-        background: red;
-    }
+
 
     header .navbar-brand {
         width: 75%;
@@ -82,5 +80,15 @@
 
     .numbers .rect h1 {
         font-size: 2rem;
+    }
+
+    section .section-l-r {
+        flex-direction: column;
+    }
+
+    section .section-l-r .center {
+        height: 2px;
+        width: 100%;
+        margin: 5em 0;
     }
 }

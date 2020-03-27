@@ -7,6 +7,8 @@ reworked and tweeked features on the home page. Installed a more prominent heade
 
 *verify mobile - LogIn and Register page created in html. HTML validation complete.
 
+Mobile verified. Nav was re-arranged
+
 ## Backend
 Using NodeJS, and express to start the backend. Using Mongoose for the database. Using heroku to deploy the backend. Currently using Zeit for the static site.
 
