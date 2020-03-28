@@ -16,8 +16,16 @@ main .main-content {
     grid-template-columns: 70% 30%;
 }
 
-.user-info,
 .user-dash {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.user-info,
+.dashboard,
+.articles,
+.skills,
+.post-wrapper {
     padding: .5rem;
     margin: 0 .5rem;
     border: 1px solid rgba(0, 0, 0, .1);
@@ -28,7 +36,7 @@ span {
 }
 
 .card {
-    background-color: darksalmon;
+    background-color: khaki;
 }
 
 .card-height {
@@ -52,4 +60,21 @@ span {
 
 .sidebar {
     border-left: 1px solid rgba(0, 0, 0, .2);
+}
+
+.dash-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 1rem;
+}
+
+.post {
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: .2rem;
+    background-color: khaki;
+}
+
+.post-card {
+    margin-bottom: .5rem;
 }
