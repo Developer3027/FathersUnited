@@ -1,6 +1,10 @@
 @import '../css/styles.css';
 @import '../css/mobile.css';
 
+a {
+    color: white;
+}
+
 label {
     display: block;
 }
@@ -13,6 +17,32 @@ label {
 select {
     margin-top: .3rem;
     padding: .2rem;
+}
+
+button {
+    margin: 1rem;
+    width: 50%;
+}
+
+.btn:hover {
+    background: red;
+}
+
+.header {
+    background-color: red;
+    color: white;
+    padding: .5rem;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    width: 80%;
+    padding: 1rem 0;
 }
 
 #age {
@@ -61,14 +91,19 @@ label {
     grid-template-columns: 50% 50%;
 }
 
-.contact-a {
+.join-form {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.contact-a,
+.contact-b,
+.jform {
     display: flex;
     flex-direction: column;
     padding: 0 5em;
 }
 
-.contact-b {
-    display: flex;
-    flex-direction: column;
-    padding: 0 5em;
+.sidebar {
+    margin-right: 1em;
 }

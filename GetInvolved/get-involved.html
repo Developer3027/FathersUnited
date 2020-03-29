@@ -18,7 +18,7 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <i class="fas fa-align-right text-light"></i>
                 </button>
-                <div class=" collapse navbar-collapse" id="navbarNav">
+                <div class=" collapse navbar-collapse" id="navbarNav"></div>
                 <div class="mr-auto"></div>
                   <ul class="navbar-nav">
                     <li class="nav-item dropdown">
@@ -55,12 +55,19 @@
         </div>
     </header>
     <section>
-        <div class="mt-5 p-5"><h4>Get Involved</h4></div>
-        <div class="contact-form p-1">
+        <div class="mt-5 p-5 header"><h4>Get Involved</h4></div>
+        <div class="top">
+            <div class="info"><h6>Our goal is to educate, support, and help all fathers understand the importance of being active in the lives of their children. Father’s United Inc. aims to help current fathers, recovering fathers, isolated fathers, step-fathers, uncles, future fathers or anyone with a desire to have a positive impact in the life of a child and their community.</h6>
+                <p>If you are dealing with divorce, seperation, or the court system and are in need of our assistance, then please fill out the Personel and Child infomation form below. Please note how the form is laid out. We don't assume your children are currently living with you or in the same county.</p>
+                <h6 class="header"><a href="#" >Join our community</a></h6>
+                <p>If you want to volunteer or join the community then please, feel free to continue to the bottom of this page and fill out the form.</p>
+            </div>
+        </div>
+        <div class="contact-form p-1 mb-5">
             <div class="">
                 
                 <form class="contact-a" action="submit">
-                    <h4 class="m-3">Personel Info</h4>
+                    <h4 class="my-3 header">Personel Info</h4>
 
                     <label for="name">Full Name</label>
                         <input id="name" type="text" size="25">
@@ -190,7 +197,7 @@
                     <!--end form?-->
             </div>
             <div class="contact-b">
-                <h4 class="m-3">Children Info</h4>
+                <h4 class="my-3 header">Children Info</h4>
 
                 <h4 class="adr-a-title"><small>Current residence where your children reside</small></h4>
                     <div class="block-three">
@@ -328,8 +335,98 @@
                             <label for="">Mental Health</label>
                         </div>
                 </div>
+                <button class="btn btn-dark">Submit</button>
             </div>
         </form>
+        </div>
+        <div class="">
+            <h4 class="header pl-5">Join our Community</h4>
+            <div class="join-form">
+                <div class="m-3">
+                    <form class="jform m-3">
+                    <div>
+                        <p class="click-title">I would like to join by (select all that apply)</p>
+                            <div class="click-combo">
+                                <input type="checkbox" id="mentoring" name="mentoring" value="yes">
+                                <label for="mentoring">Mentoring</label>
+                            </div>
+                            <div class="click-combo">
+                                <input type="checkbox" id="Assist" name="Assist" value="yes">
+                                <label for="Assist">Assist with Activities</label>
+                            </div>
+                            <div class="click-combo">
+                                <input type="checkbox" id="daily-help" name="daily-help" value="yes">
+                                <label for="daily-help">Help with daily operations of the organization.</label>
+                            </div>
+                            <div class="click-combo">
+                                <input type="checkbox" id="board-member" name="board-member" value="yes">
+                                <label for="board-member">I would like to become a board member</label>
+                            </div>
+                            <div class="click-combo">
+                                <input type="checkbox" id="scholarship" name="scholarship" value="yes">
+                                <label for="scholarship">I would like to apply for a Scholarship / Financial Aid</label>
+                            </div>
+                    </div>
+                    <div>
+                        <p class="click-title">I would like to volunteer my skills and services (select all that apply)</p>
+                            <div class="click-combo">
+                                <input type="checkbox" id="volunteer" name="volunteer" value="yes">
+                                <label for="volunteer">Volunteering time</label>
+                            </div>
+                            <div class="click-combo">
+                                <input type="checkbox" id="finance" name="finance" value="yes">
+                                <label for="finance">Finance</label>
+                            </div>
+                            <div class="click-combo">
+                                <input type="checkbox" id="event-plan" name="event-plan" value="yes">
+                                <label for="event-plan">Event Planning</label>
+                            </div>
+                            <div class="click-combo">
+                                <input type="checkbox" id="fundraise" name="fundraise" value="yes">
+                                <label for="fundraise">Fundraising</label>
+                            </div>
+                            <div class="click-combo">
+                                <input type="checkbox" id="grant-write" name="grant-write" value="yes">
+                                <label for="grant-write">Grant writing</label>
+                            </div>
+                            <div class="click-combo">
+                                <input type="checkbox" id="other" name="other" value="yes">
+                                <label for="other">Other</label>
+                            </div>
+                    </div>
+                    <div>
+                        <p class="click-title">How did you hear about us? </p>
+                            <div class="click-combo">
+                                <input type="checkbox" id="website" name="website" value="yes">
+                                <label for="website">Found website online</label>
+                            </div>
+                            <div class="click-combo">
+                                <input type="checkbox" id="facebook" name="facebook" value="yes">
+                                <label for="facebook">Facebook</label>
+                            </div>
+                            <div class="click-combo">
+                                <input type="checkbox" id="instagram" name="instagram" value="yes">
+                                <label for="instagram">Instagram</label>
+                            </div>
+                            <div class="click-combo">
+                                <input type="checkbox" id="twitter" name="twitter" value="yes">
+                                <label for="twitter">Twitter</label>
+                            </div>
+                            <div class="click-combo">
+                                <input type="checkbox" id="friend" name="friend" value="yes">
+                                <label for="friend">Referred by friend</label>
+                            </div>
+                            <div class="click-combo">
+                                <input type="checkbox" id="business-card" name="business-card" value="yes">
+                                <label for="business-card">Saw the business card somewhere</label>
+                            </div>
+                    </div>
+                    <button class="btn btn-dark">Join</button>
+                </form>
+                </div>
+                <div class="sidebar">
+                    <iframe class="mt-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2738.208562514631!2d-80.940616608344!3d35.2985984613006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8856a39c71ff2479%3A0xde07f79e2caa0ffd!2s626%20Stillgreen%20Ln%2C%20Charlotte%2C%20NC%2028214!5e0!3m2!1sen!2sus!4v1585501800928!5m2!1sen!2sus" width="450" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
             
         </div>
     </section>
