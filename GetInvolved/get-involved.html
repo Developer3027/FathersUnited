@@ -55,13 +55,282 @@
         </div>
     </header>
     <section>
-        <div class="mt-5 p-5 red"><h1>Get Involved</h1></div>
-        <div class="text-center justify-content-center p-2">
-            <h4 class="m-3">Please pardon the mess .....</h4>
-            <p>This site is currently being built and you have landed on a page that is not ready yet.</p>
-            <p>Please pardon the interuprtion as we are working on getting things up and running.</p>
-            <h1 class="m-5 red">{404}</h1>
-            <p>We appologize for any inconvience.</p>
+        <div class="mt-5 p-5"><h4>Get Involved</h4></div>
+        <div class="contact-form p-1">
+            <div class="">
+                
+                <form class="contact-a" action="submit">
+                    <h4 class="m-3">Personel Info</h4>
+
+                    <label for="name">Full Name</label>
+                        <input id="name" type="text" size="25">
+                    
+                    <label for="email">Email</label>
+                        <input id="email" type="text">
+
+                    <h4 class="adr-a-title"><small>Current residence where you reside</small></h4>
+                    <div class="adr-a">
+                        <div class="input-combo">
+                        <label for="city">City</label>
+                        <input id="city" type="text">
+                        </div>
+                        <div class="input-combo">
+                        <label for="state">State</label>
+                        <select id="state">
+                            <option value="South Carolina">South Carolina</option>
+                            <option value="Alabama">Alabama</option>
+                            <option value="Alaska">Alaska</option>
+                            <option value="Arizona">Arizona</option>
+                            <option value="Arkansas">Arkansas</option>
+                            <option value="California">California</option>
+                            <option value="Colorado">Colorado</option>
+                            <option value="Connecticut">Connecticut</option>
+                            <option value="Delaware">Deleware</option>
+                            <option value="Florida">Florida</option>
+                            <option value="Georgia">Georgia</option>
+                            <option value="Hawaii">Hawaii</option>
+                            <option value="Idaho">Idaho</option>
+                            <option value="Illinois">Illinois</option>
+                            <option value="Indiana">Indiana</option>
+                            <option value="Iowa">Iowa</option>
+                            <option value="Kansas">Kansas</option>
+                            <option value="Kentucky">Kentucky</option>
+                            <option value="Louisiana">Louisiana</option>
+                            <option value="Maine">Maine</option>
+                            <option value="Maryland">Maryland</option>
+                            <option value="Massachusetts">Massachusetts</option>
+                            <option value="Michigan">Michigan</option>
+                            <option value="Minnesota">Minnesota</option>
+                            <option value="Mississippi">Mississippi</option>
+                            <option value="Missouri">Missouri</option>
+                            <option value="Montana">Montana</option>
+                            <option value="Nebraska">Nebraska</option>
+                            <option value="Nevada">Nevada</option>
+                            <option value="New Hampshire">New Hampshire</option>
+                            <option value="New Jersey">New Jersey</option>
+                            <option value="New Mexico">New Mexico</option>
+                            <option value="New York">New York</option>
+                            <option value="North Carolina">North Carolina</option>
+                            <option value="North Dakota">North Dakota</option>
+                            <option value="Ohio">Ohio</option>
+                            <option value="Oklahoma">Oklahoma</option>
+                            <option value="Oregon">Oregon</option>
+                            <option value="Pennsylvania">Pennsylvania</option>
+                            <option value="Rhode Island">Rhode Island</option>
+                            <option value="South Dakota">South Dakota</option>
+                            <option value="Tennessee">Tennessee</option>
+                            <option value="Texas">Texas</option>
+                            <option value="Utah">Utah</option>
+                            <option value="Vermont">Vermont</option>
+                            <option value="Virginia">Virginia</option>
+                            <option value="Washington">Washington</option>
+                            <option value="West Virginia">West Virginia</option>
+                            <option value="Wisconsin">Wisconsin</option>
+                            <option value="Wyoming">Wyoming</option>
+                        </select>
+                        </div>
+                    </div>
+                    <div class="block-three">
+                    <div class="input-combo">
+                        <label for="county">County</label>
+                        <input id="county" type="text">
+                    </div>
+                    <div class="input-combo">
+                    <label for="age">Age</label>
+                        <input id="age" type="number" size="3">
+                    </div>
+                    <div class="input-combo">
+                    <label for="number">Best Contact Number</label>
+                        <input id="number" type="tel" placeholder="(xxx) xxx-xxxx">
+                    </div>
+                    </div>
+                    
+                    <div>
+                        <p class="click-title">Are you currently employed</p>
+                            <div class="click-combo">
+                                <input type="radio" name="employed" id="yes" value="yes">
+                                <label for="yes">yes</label>
+                            </div>
+                            <div class="click-combo">
+                                <input type="radio" name="employed" id="no" value="no">
+                                <label for="no">no</label>
+                            </div>
+                    </div>
+                    <div>
+                        <p class="click-title">Do you have an upcoming court date?</p>
+                            <div class="click-combo">
+                                <input type="radio" name="court" id="yes" value="yes">
+                                <label for="yes">yes</label>
+                            </div>
+                            <div class="click-combo">
+                                <input type="radio" name="court" id="no" value="no">
+                                <label for="no">no</label>
+                            </div>
+                    </div>
+                    <div>
+                        <p class="click-title">How may we help?</p>
+                            <div class="click-combo">
+                                <input type="checkbox" id="member-services" name="member" value="services">
+                                <label for="member-services">I would like to receive member services</label>
+                            </div>
+                            <div class="click-combo">
+                                <input type="checkbox" id="coaching-total" name="coach" value="total">
+                                <label for="coaching-total">I would like a Pro Se Representation Coaching ($100/Hour)</label>
+                            </div>
+                            <div class="click-combo">
+                                <input type="checkbox" id="coaching-half" name="coach" value="half">
+                                <label for="coaching-half">I would like a mini Pro Se Representation Coaching ($50/Half Hour)</label>
+                            </div>
+                    </div>
+                    <div>
+                        <p class="click-title">Please enter any further details about your case.</p>
+                        
+                        <textarea id="details" name="details" rows="5" cols="53"></textarea>
+                    </div>
+                    <!--end form?-->
+            </div>
+            <div class="contact-b">
+                <h4 class="m-3">Children Info</h4>
+
+                <h4 class="adr-a-title"><small>Current residence where your children reside</small></h4>
+                    <div class="block-three">
+                        <div class="input-combo">
+                            <label for="city">City</label>
+                            <input id="city" type="text">
+                        </div>
+                        <div class="input-combo">
+                            <label for="state">State</label>
+                            <select id="state">
+                                <option value="South Carolina">SC</option>
+                                <option value="Alabama">AL</option>
+                                <option value="Alaska">AK</option>
+                                <option value="Arizona">AZ</option>
+                                <option value="Arkansas">AR</option>
+                                <option value="California">CA</option>
+                                <option value="Colorado">CO</option>
+                                <option value="Connecticut">CT</option>
+                                <option value="Delaware">DE</option>
+                                <option value="District of Columbia">DC</option>
+                                <option value="Florida">FL</option>
+                                <option value="Georgia">GA</option>
+                                <option value="Hawaii">HI</option>
+                                <option value="Idaho">ID</option>
+                                <option value="Illinois">IL</option>
+                                <option value="Indiana">IN</option>
+                                <option value="Iowa">IA</option>
+                                <option value="Kansas">KS</option>
+                                <option value="Kentucky">KY</option>
+                                <option value="Louisiana">LO</option>
+                                <option value="Maine">ME</option>
+                                <option value="Maryland">MD</option>
+                                <option value="Massachusetts">MA</option>
+                                <option value="Michigan">MI</option>
+                                <option value="Minnesota">MN</option>
+                                <option value="Mississippi">MS</option>
+                                <option value="Missouri">MO</option>
+                                <option value="Montana">MT</option>
+                                <option value="Nebraska">NE</option>
+                                <option value="Nevada">NV</option>
+                                <option value="New Hampshire">NH</option>
+                                <option value="New Jersey">NJ</option>
+                                <option value="New Mexico">NM</option>
+                                <option value="New York">NY</option>
+                                <option value="North Carolina">NC</option>
+                                <option value="North Dakota">ND</option>
+                                <option value="Ohio">OH</option>
+                                <option value="Oklahoma">OK</option>
+                                <option value="Oregon">OR</option>
+                                <option value="Pennsylvania">PA</option>
+                                <option value="Rhode Island">RI</option>
+                                <option value="South Dakota">SD</option>
+                                <option value="Tennessee">TN</option>
+                                <option value="Texas">TX</option>
+                                <option value="Utah">UT</option>
+                                <option value="Vermont">VT</option>
+                                <option value="Virginia">VA</option>
+                                <option value="Washington">WA</option>
+                                <option value="West Virginia">WV</option>
+                                <option value="Wisconsin">WI</option>
+                                <option value="Wyoming">WY</option>
+                            </select>
+                        </div>
+                        <div class="input-combo">
+                            <label for="county">County</label>
+                            <input id="county" type="text">
+                        </div>
+                    </div>
+                    <div>
+                        <p class="click-title">Do you have a current custody order?</p>
+                            <div class="click-combo">
+                                <input type="radio" name="custody" id="yes" value="yes">
+                                <label for="yes">yes</label>
+                            </div>
+                            <div class="click-combo">
+                                <input type="radio" name="custody" id="no" value="no">
+                                <label for="no">no</label>
+                            </div>
+                    </div>
+                <div>
+                    <p class="click-title">How many children do you have?</p>
+                        <div class="click-combo">
+                            <input type="radio" name="child-count" id="none" value="yes">
+                            <label for="none">None</label>
+                        </div>
+                        <div class="click-combo">
+                            <input type="radio" name="child-count" id="one" value="yes">
+                            <label for="one">One</label>
+                        </div>
+                        <div class="click-combo">
+                            <input type="radio" name="child-count" id="two" value="yes">
+                            <label for="two">Two</label>
+                        </div>
+                        <div class="click-combo">
+                            <input type="radio" name="child-count" id="three" value="yes">
+                            <label for="three">Three</label>
+                        </div>
+                        <div class="click-combo">
+                            <input type="radio" name="child-count" id="four" value="yes">
+                            <label for="four">four</label>
+                        </div>
+                        <div class="click-combo">
+                            <input type="radio" name="child-count" id="five" value="yes">
+                            <label for="five">five</label>
+                        </div>
+                        <div class="click-combo">
+                            <input type="radio" name="child-count" id="six-plus" value="yes">
+                            <label for="six-plus">Six or more</label>
+                        </div>
+                </div>
+                <div>
+                    <p class="click-title">What may we help with?</p>
+                        <div class="click-combo">
+                            <input type="checkbox" id="member-services" name="member" value="services">
+                            <label for="member-services">Child Custody</label>
+                        </div>
+                        <div class="click-combo">
+                            <input type="checkbox" id="coaching-total" name="coach" value="total">
+                            <label for="coaching-total">Child Support</label>
+                        </div>
+                        <div class="click-combo">
+                            <input type="checkbox" id="" name="fix" value="me">
+                            <label for="">Employment</label>
+                        </div>
+                        <div class="click-combo">
+                            <input type="checkbox" id="" name="fix" value="me">
+                            <label for="">Housing</label>
+                        </div>
+                        <div class="click-combo">
+                            <input type="checkbox" id="" name="fix" value="me">
+                            <label for="">Financial Awareness</label>
+                        </div>
+                        <div class="click-combo">
+                            <input type="checkbox" id="" name="fix" value="me">
+                            <label for="">Mental Health</label>
+                        </div>
+                </div>
+            </div>
+        </form>
+            
         </div>
     </section>
 
