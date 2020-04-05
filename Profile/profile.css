@@ -89,3 +89,18 @@ main .main-content {
 .post-card {
     margin-bottom: .5rem;
 }
+
+.dash-main {
+    margin: 6em 0;
+}
+
+.table th {
+    padding: 1rem;
+    text-align: left;
+    background-color: lightgrey;
+}
+
+.table td {
+    margin: 1rem;
+    text-align: left;
+}
