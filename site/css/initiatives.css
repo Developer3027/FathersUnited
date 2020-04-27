@@ -41,7 +41,7 @@ html {
 
 .div-img4 {
    background-image: url('../img/img6.jpg');
-   min-height: 400px;
+   min-height: 100%;
 }
 
 .div-img5 {
