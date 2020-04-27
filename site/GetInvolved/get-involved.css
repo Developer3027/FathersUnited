@@ -1,6 +1,10 @@
 @import '../css/styles.css';
 @import '../css/mobile.css';
 
+.divide {
+    margin-bottom: 10em;
+}
+
 a {
     color: white;
 }

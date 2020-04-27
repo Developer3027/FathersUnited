@@ -12,12 +12,12 @@ body {
 }
 
 header,
-section {
+/* section {
     overflow-x: hidden;
-}
+} */
 
 header a {
-    font-size: 1.2em;
+    font-size: .9rem;
     color: white;
 }
 
@@ -25,21 +25,25 @@ nav {
     background: linear-gradient(to right, white 25%, red 75%);
 }
 
+/* .logo {
+    width: 10%;
+} */
+
 header nav {
     border-bottom: 2px solid red;
 }
 
-header .nav-item:last-child {
-    padding-right: 5em;
-}
+/* header .nav-item:last-child {
+    padding-right: .1em;
+} */
 
 header .nav-item {
-    padding: 0.7em;
+    padding: 0.5rem;
 }
 
-header .navbar-brand {
-    padding-left: 5rem;
-}
+/* header .navbar-brand {
+    padding-left: 1rem;
+} */
 
 header .nav-link:hover {
     color: black;

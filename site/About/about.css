@@ -1,0 +1,100 @@
+@import '../css/styles.css';
+@import '../css/mobile.css';
+
+.red {
+    color: red;
+}
+
+.carousel-item img {
+    border-radius: 5px;
+}
+
+.carousel-img {
+    width: 100vmin;
+}
+
+.highlight {
+    color: #DB4437;
+    background-color: #F5F5F5;
+    padding: .5rem;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.highlight-text {
+    color: #DB4437;
+}
+
+.benefits,
+.co-profile {
+    border: 2px solid rgba(255, 120, 120, .3);
+    border-radius: 5px;
+    padding: .5rem;
+}
+
+.line {
+    display: flex;
+    padding-left: .5rem;
+}
+
+.line h6,
+p {
+    margin: 0;
+}
+
+.div-img1 {
+    position: relative;
+    opacity: .8;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+    background-image: url('../img/img3.jpg');
+    min-height: 100%;
+}
+
+.ptext {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 2px;
+}
+
+.comment {
+    position: relative;
+    text-transform: uppercase;
+    background-color: darkred;
+    border-radius: 3px;
+    color: white;
+    padding: .5em;
+
+}
+
+.comment::before,
+.comment::after {
+    position: absolute;
+    content: '';
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+}
+
+.comment::before {
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.comment1 p {
+    background-color: rgba(5, 5, 5, .7);
+    padding: 1.5em;
+    color: white;
+    margin: .5em 0;
+}
+
+.section {
+    padding: 2em 0;
+}

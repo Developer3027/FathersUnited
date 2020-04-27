@@ -1,0 +1,116 @@
+@import '../css/styles.css';
+@import '../css/mobile.css';
+
+
+
+/**************************************************/
+body,
+html {
+   height: 100%;
+   margin: 0;
+}
+
+.div-img1,
+.div-img2,
+.div-img3,
+.div-img4,
+.div-img5 {
+   position: relative;
+   opacity: .8;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+
+   background-attachment: fixed;
+}
+
+.div-img1 {
+   background-image: url('../img/img5.jpg');
+   min-height: 100%;
+}
+
+.div-img2 {
+   background-image: url('../img/img2.jpg');
+   min-height: 400px;
+}
+
+.div-img3 {
+   background-image: url('../img/img1.jpg');
+   min-height: 100%;
+}
+
+.div-img4 {
+   background-image: url('../img/img6.jpg');
+   min-height: 400px;
+}
+
+.div-img5 {
+   background-image: url('../img/img7.png');
+   min-height: 400px;
+}
+
+.ptext {
+   position: absolute;
+   top: 45%;
+   width: 100%;
+   text-align: center;
+   font-size: 27px;
+   letter-spacing: 2px;
+}
+
+.comment {
+   position: relative;
+   text-transform: uppercase;
+   background-color: darkred;
+   border-radius: 3px;
+   color: white;
+   padding: .5em;
+
+}
+
+.comment::before,
+.comment::after {
+   position: absolute;
+   content: '';
+   top: 5px;
+   bottom: 5px;
+   left: 5px;
+   right: 5px;
+}
+
+.comment::before {
+   border: 1px solid white;
+   border-radius: 3px;
+}
+
+.comment1 p {
+   background-color: rgba(5, 5, 5, .7);
+   padding: 1.5em;
+   color: white;
+   margin: .5em 0;
+}
+
+.section {
+   padding: 2em 0;
+}
+
+.line {
+   display: flex;
+   align-items: center;
+   padding-left: .5rem;
+}
+
+.line p,
+h5 {
+   color: red;
+}
+
+.line h6,
+p {
+   margin: 0;
+   font-size: 18px;
+}
+
+.carousel-img {
+   width: 100vmin;
+}
